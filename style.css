@@ -1,0 +1,49 @@
+/* Fond global */
+body {
+    background-color: #2C003E; /* violet très foncé */
+    color: white;
+  }
+  
+  /* Navbar / sommaire fixe */
+  .navbar, .navbar-brand, .nav-link {
+    background-color: #2C003E !important; /* violet foncé */
+    color: #E0C0FF !important; /* texte clair */
+  }
+  
+  /* Sections */
+  section {
+    background-color: #4B0066; /* violet moyen */
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* Cartes de projets */
+  .card {
+    cursor: pointer;
+    background-color: #3B0060; /* violet intermédiaire */
+    border: none;
+    transition: background-color 0.3s;
+    color: white;
+  }
+  
+  .card:hover {
+    background-color: #5A0080; /* violet plus vif au survol */
+  }
+  
+  /* Modales */
+  .modal-content {
+    background-color: #3B0060; /* violet intermédiaire pour modales */
+    color: white;
+  }
+  
+  /* Titres */
+  h2, h3, h5 {
+    color: #E0C0FF;
+  }
+  
+  /* Liens ou boutons */
+  a, .btn {
+    color: #E0C0FF !important;
+  }
+  
